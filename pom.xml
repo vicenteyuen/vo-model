@@ -5,4 +5,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Object for Viewer Interface</name>
   <description>提供支持视图转换的基础标准框架数据</description>
+  <distributionManagement>
+  	<repository>
+  		<uniqueVersion>false</uniqueVersion>
+  		<id>sonatype-nexus-staging</id>
+  		<name>Vsg Businesss Component lib release</name>
+  		<url>http://oss.sonatype.org/content/repositories/releases</url>  		
+  	</repository>  
+  	<snapshotRepository>
+  		<uniqueVersion>false</uniqueVersion>
+  		<id>sonatype-nexus-snapshots</id>
+  		<name>Vsg Businesss Component lib Snapshots</name>
+  		<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+  	</snapshotRepository>  
+  </distributionManagement>  
 </project>
